@@ -1,0 +1,32 @@
+body {
+    background-color: darkred;
+}
+
+.theFuckingnavBar {
+    background: linear-gradient( to right, rgb(207, 0, 0) 20%, rgb(85, 0, 0) 70%);
+    height: 80px;
+    display: flex;
+    
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    gap: 50px;
+
+}
+
+.theFuckingnavBar > a {
+    color: rgb(128, 0, 0);
+    position: relative;
+    left: 100px;
+    text-decoration: none;
+    font-family: helvetica;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    
+}
+
+.theFuckingnavBar > a:hover {
+    color: rgb(255, 0, 0);
+}
