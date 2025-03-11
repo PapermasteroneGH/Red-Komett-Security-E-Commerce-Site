@@ -16,7 +16,7 @@ function Resources() {
                 </h1>
 
                 <p>
-                    I'm a senior tech 
+                    a senior software engineer who worked on the revolutionarys
                 </p>
                 <img src="https://media.istockphoto.com/id/1372353160/photo/young-asian-programmer-working-at-office.jpg?s=612x612&w=0&k=20&c=LO6IHvBGpqS798EZ6rmoJ8XtPs5iureu-pl38V1WxuA=">
                 </img>

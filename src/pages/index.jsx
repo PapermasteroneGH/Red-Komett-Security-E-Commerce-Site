@@ -72,7 +72,7 @@ function Index() {
 
             </div>
             <div id="footer-div">
-                <img src="company-logo"></img>
+                <img href="red-zaku-head-andrea-gatti-transparent.png"></img>
                 <Link to="/ContactUs">
                     Contact Us
                 </Link>
