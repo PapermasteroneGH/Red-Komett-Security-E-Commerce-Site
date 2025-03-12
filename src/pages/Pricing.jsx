@@ -1,3 +1,4 @@
+import AttackDBPLP from "./Products/AttackDBPLP"
 
 function Pricing() {
 
@@ -25,7 +26,9 @@ function Pricing() {
                     </p>
                     <div>
                         <p>
-                            Attack Dashboard
+                            <Link to="/AttackDBPLP">
+                                Attack Dashboard
+                            </Link>
                         </p>
                         <p>
                               

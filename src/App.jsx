@@ -6,6 +6,7 @@ import Pricing from './pages/Pricing';
 import Resources from './pages/resources';
 import FeedBack from "./pages/FeedBack";
 import ContactUs from "./pages/ContactUs";
+import AttackDBPLP from './pages/Products/AttackDBPLP';
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
           <Route path="/Resources" element={<Resources />} />
           <Route path="/FeedBack" element={<FeedBack />} />
           <Route Path="/ContactUs" element={<ContactUs />} />
+          <Route Path="/AttackDBPLP" element={<AttackDBPLP />} />
         </Routes>
       </Router>
     </>
