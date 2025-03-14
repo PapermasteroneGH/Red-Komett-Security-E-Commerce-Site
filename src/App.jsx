@@ -7,6 +7,7 @@ import Resources from './pages/resources';
 import FeedBack from "./pages/FeedBack";
 import ContactUs from "./pages/ContactUs";
 import AttackDBPLP from './pages/Products/AttackDBPLP';
+import ThornePLP from './pages/Products/ThornePLP';
 
 function App() {
 
@@ -34,6 +35,29 @@ function App() {
       )
   }
 
+  function Footer() {
+
+    const currentDate = new Date().getFullYear();
+
+    return(
+      <>
+        <div id="footer-div">
+          <img href="red-zaku-head-andrea-gatti-transparent.png"></img>
+          <Link to="/ContactUs" target="_blank">
+                Contact Us
+          </Link>
+          <Link to="/FeedBack" target="_blank">
+                FeedBacks
+          </Link>
+          <div id="footer-contacts-list">
+                <img></img>
+          </div>
+          <p>© {currentDate} Paperworks Community</p>      
+        </div>
+      </>)
+    
+  }
+
   return (
     <>
       <Router>
@@ -43,9 +67,11 @@ function App() {
           <Route path="/Pricing" element={<Pricing />} />
           <Route path="/Resources" element={<Resources />} />
           <Route path="/FeedBack" element={<FeedBack />} />
-          <Route Path="/ContactUs" element={<ContactUs />} />
-          <Route Path="/AttackDBPLP" element={<AttackDBPLP />} />
+          <Route path="/ContactUs" element={<ContactUs />} />
+          <Route path="/AttackDBPLP" element={<AttackDBPLP />} />
+          <Route path="/ThornePLP.jsx" element={<ThornePLP />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   )

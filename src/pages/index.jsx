@@ -3,8 +3,6 @@ import React, { useState, useEffect} from 'react';
 
 
 function Index() {
-    
-    const currentDate = new Date().getFullYear();
 
     return(
         <>
@@ -70,19 +68,6 @@ function Index() {
             </div>
             <div id="faq">
 
-            </div>
-            <div id="footer-div">
-                <img href="red-zaku-head-andrea-gatti-transparent.png"></img>
-                <Link to="/ContactUs">
-                    Contact Us
-                </Link>
-                <Link to="/FeedBack">
-                    FeedBacks
-                </Link>
-                <div id="footer-contacts-list">
-                    <img></img>
-                </div>
-                <p>© {currentDate} Paperworks Community</p>
             </div>
         </>
         

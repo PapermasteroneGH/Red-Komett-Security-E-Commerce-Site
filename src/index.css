@@ -30,3 +30,39 @@ body {
 .theFuckingnavBar > a:hover {
     color: rgb(255, 0, 0);
 }
+
+#footer-div {
+    display: flex;
+    background: darkred;
+    background-size: cover;
+    height: 500px;
+    padding: 50px;
+}
+
+#footer-div > img {
+    height: 50px;
+    width: 50px;
+}
+
+#footer-div > a {
+    font-family: helvetica;
+    font-size: 20pt;
+    color: rgb(41, 0, 0);
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+
+
+#footer-div > p {
+    font-family: system-ui;
+    font-size: 15pt;
+    color: rgb(255, 0, 0);
+}
+
+#footer-div > #footer-contacts-list > img {
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+
+}

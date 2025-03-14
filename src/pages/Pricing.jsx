@@ -1,4 +1,5 @@
-import AttackDBPLP from "./Products/AttackDBPLP"
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import React, { useState, useEffect} from 'react';
 
 function Pricing() {
 
@@ -31,7 +32,9 @@ function Pricing() {
                             </Link>
                         </p>
                         <p>
-                              
+                            <Link to="/ThornePLP">
+                                Thorne 
+                            </Link>
                         </p>
                     </div>
                 </div>
