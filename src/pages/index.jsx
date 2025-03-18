@@ -22,7 +22,9 @@ function Index() {
             </div>
             <div id="brief-resource-view">
                 <p>AWARDS & ACHIEVEMENTS</p>
-
+                <div>
+                    
+                </div>
             </div>
             <div id="testimony">
                 <p>
