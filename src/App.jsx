@@ -42,7 +42,7 @@ function App() {
     return(
       <>
         <div id="footer-div">
-          <img href="red-zaku-head-andrea-gatti-transparent.png"></img>
+          <img src="https://cdn3.iconfinder.com/data/icons/gundam-glyph/48/Cartoons__Anime_Gundam_Artboard_2-512.png"></img>
           <Link to="/ContactUs" target="_blank">
                 Contact Us
           </Link>
@@ -50,7 +50,9 @@ function App() {
                 FeedBacks
           </Link>
           <div id="footer-contacts-list">
-                <img></img>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/640px-Instagram_icon.png"></img>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png"></img>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/2491px-Logo_of_Twitter.svg.png"></img>
           </div>
           <p>© {currentDate} Paperworks Community</p>      
         </div>

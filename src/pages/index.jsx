@@ -23,7 +23,7 @@ function Index() {
             <div id="brief-resource-view">
                 <p>AWARDS & ACHIEVEMENTS</p>
                 <div>
-                    
+
                 </div>
             </div>
             <div id="testimony">
@@ -56,15 +56,17 @@ function Index() {
             </div>
             <div id="brief-catalogue-view">
                 <div>
-                    <img>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6afolGuLH2c9IABfWXA_TIhOeZI6L1omKCA&s" >
                     </img>
-                    <p>
-                        Explore the depths of the cybersecurity expertise <br />
-                        with the softwares built for professionals by professionals 
-                    </p>
-                    <button onclick="window.open('/Resources', '_blank', 'noopener,noreferrer')">          
-                            Take a look at our catalogue
-                    </button>
+                    <div>
+                        <p>
+                            Explore the depths of the cybersecurity expertise <br />
+                            with the softwares built for professionals by professionals 
+                        </p>
+                        <button onclick="window.open('/Resources', '_blank', 'noopener,noreferrer')">          
+                                Take a look at our catalogue
+                        </button>
+                    </div>
                 </div>
                 
             </div>

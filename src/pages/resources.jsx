@@ -24,6 +24,15 @@ function Resources() {
                 <img src="https://media.istockphoto.com/id/1372353160/photo/young-asian-programmer-working-at-office.jpg?s=612x612&w=0&k=20&c=LO6IHvBGpqS798EZ6rmoJ8XtPs5iureu-pl38V1WxuA=">
                 </img>
             </div>
+            <div>
+                <h1>
+                    AttackTheWeb
+                </h1>
+                <p>
+                    a full time contractor in the company famously known for his anonymity and his brilliant performance in attacking<br />
+                    
+                </p>
+            </div>
         </div>
     )
 }
