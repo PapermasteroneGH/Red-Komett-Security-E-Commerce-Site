@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-y: none;
+    overflow-y: auto; /* Change 'none' to 'auto' */
+    overflow-x: hidden;
 }
 
 #extra-layer {
@@ -21,7 +22,6 @@
     height: 100vh;
     width: auto;
     max-width: 100%;
-    overflow-x: hidden;
     padding: 100px;
 }
 
