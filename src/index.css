@@ -4,6 +4,10 @@ body {
 
 @media (max-width: 768px) {
     
+    nav {
+        margin: 0 auto;
+    }
+
     .theFuckingnavBar {
         align-self: center;
     }
@@ -11,6 +15,8 @@ body {
     .theFuckingnavBar > a {
         font-size: 10pt;
     }
+
+    
 
 
 }
@@ -27,7 +33,7 @@ body {
 }
 
 .theFuckingnavBar > a {
-    color: rgb(128, 0, 0);
+    color: rgb(155, 0, 0);
     position: relative;
     left: 100px;
     text-decoration: none;
