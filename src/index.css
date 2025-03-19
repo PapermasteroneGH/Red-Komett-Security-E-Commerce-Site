@@ -5,15 +5,20 @@ body {
 @media (max-width: 768px) {
     
     .theFuckingnavBar {
-        
+        align-self: center;
     }
+
+    .theFuckingnavBar > a {
+        font-size: 10pt;
+    }
+
+
 }
 
 .theFuckingnavBar {
     background: linear-gradient( to right, rgb(207, 0, 0) 20%, rgb(85, 0, 0) 70%);
     height: 80px;
     display: flex;
-    
     align-items: center;
     list-style: none;
     text-decoration: none;
