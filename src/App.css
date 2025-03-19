@@ -4,6 +4,35 @@
         text-align: center; /* Adjust alignment */
     }
 
+    #main-container > h1, 
+    #main-container > p {
+        font-size: 24pt; /* Reduce text size */
+    }
+
+    #main-container > img {
+        width: 100%;
+        height: auto;
+        position: relative; /* Avoid absolute positioning */
+        left: 0;
+    }
+
+    #brief-catalogue-view > div {
+        flex-direction: column; /* Stack items */
+        align-items: center;
+        margin-left: 0;
+    }
+
+    #brief-catalogue-view > div > img {
+        width: 100%; /* Full width */
+        height: auto;
+    }
+
+    #testimony > div {
+        width: 90%; /* Reduce width */
+        margin: 20px auto; /* Adjust margins */
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
