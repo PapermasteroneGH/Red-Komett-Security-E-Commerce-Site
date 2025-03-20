@@ -8,6 +8,7 @@ import FeedBack from "./pages/FeedBack";
 import ContactUs from "./pages/ContactUs";
 import AttackDBPLP from './pages/Products/AttackDBPLP';
 import ThornePLP from './pages/Products/ThornePLP';
+import CredPage from './pages/Products/Credibility';
 
 function App() {
 
@@ -72,6 +73,7 @@ function App() {
           <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/AttackDBPLP" element={<AttackDBPLP />} />
           <Route path="/ThornePLP.jsx" element={<ThornePLP />} />
+          <Route path="/Credibility.jsx" element={<CredPage />} />
         </Routes>
         <Footer />
       </Router>

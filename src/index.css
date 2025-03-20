@@ -5,19 +5,31 @@ body {
 @media (max-width: 768px) {
     
     nav {
+        background-color: transparent;
+        position: fixed;
+        width: 100%;
         margin: 0 auto;
+        z-index: 3;
+        
     }
 
     .theFuckingnavBar {
+        
+        height: 80px;
+        width: 100%;
         align-self: center;
+        
     }
 
     .theFuckingnavBar > a {
+        display: block;
         font-size: 10pt;
+        text-align: center;
+        height: 40px;
+        width: 100px;
+        left: 30px;
+        z-index: 4;
     }
-
-    
-
 
 }
 

@@ -29,9 +29,12 @@ function Resources() {
                     AttackTheWeb
                 </h1>
                 <p>
-                    a full time contractor in the company famously known for his anonymity and his brilliant performance in attacking<br />
-                    
+                    a full time contractor in the company famously known for his anonymity and his brilliant performance in multiple<br />
+                    sectors of cybersecurity including leading the development of a significant amount of tools that has made the highest
+                    impact in the company
                 </p>
+                <img src="https://img.freepik.com/free-vector/mysterious-gangster-character_23-2148483453.jpg">
+                </img>
             </div>
         </div>
     )

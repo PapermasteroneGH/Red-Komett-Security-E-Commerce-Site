@@ -15,7 +15,7 @@ function Index() {
                 <p>The Red Komett Security</p>
                 <h1>Top performing red team group in the world</h1>
                 <p>Ranked 10th out of 730 others in asia</p>
-                <button>
+                <button onclick="windows.open('/Credibility.jsx', '_blank', 'noopener,noreferrer')" >
                     CHECK OUR CREDIBILITY
                 </button>
                 <img></img>
