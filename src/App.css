@@ -1,6 +1,6 @@
 
 /* Mobile view */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     #main-container {
         padding: 10px; 
         text-align: center;
