@@ -51,9 +51,10 @@ function App() {
                 FeedBacks
           </Link>
           <div id="footer-contacts-list">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/640px-Instagram_icon.png"></img>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png"></img>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/2491px-Logo_of_Twitter.svg.png"></img>
+                <a href="https://www.instagram.com/papermasteroneig/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/640px-Instagram_icon.png"></img></a>
+                <a href="https://www.linkedin.com/in/iftitah-ranjana-akhtikiszi-737a44247/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png"></img></a>
+                <a href="https://x.com/PapermasteroneY" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/2491px-Logo_of_Twitter.svg.png"></img></a>
+                <a href="https://github.com/PapermasteroneGH" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></img></a>
           </div>
           <p>© {currentDate} Paperworks Community</p>      
         </div>
